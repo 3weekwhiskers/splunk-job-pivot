@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "LoadJob Facilitator + ServerName",
+    "version": "1.0",
+	 "icons": {
+    "16": "images/icon-16.png",
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+    "permissions": ["tabs",
+    "activeTab",
+    "scripting",
+    "clipboardWrite"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
